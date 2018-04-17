@@ -11,7 +11,7 @@ import io.restassured.specification.RequestSpecification;
  
 public class SimplePostTest {
  
-	@Test
+	@Test(description="This test case for validate post call")
 	public void GetWeatherDetails()
 	{   
 		// Specify the base URL to the RESTful web service

@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="API automation">
+<test name="All API Class">
+<classes>
+<class name="FIRST_API.SimpleDelete"/>
+<class name="FIRST_API.SimpleGetNotFound"/>
+<class name="FIRST_API.SimpleGetTest"/>
+<class name="FIRST_API.SimplePostTest"/>
+<class name="FIRST_API.SimplePutTest"/>
+<class name="FIRST_API.UnthenticationSuccessful"/>
+<class name="FIRST_API.UnthenticationUnSuccessful"/>
+</classes>
+</test>
+</suite>

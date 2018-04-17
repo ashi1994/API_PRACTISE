@@ -10,7 +10,7 @@ import io.restassured.specification.RequestSpecification;
  
 public class UnthenticationSuccessful {
  
-	@Test
+	@Test(description="this test vaildate the suceessful authentication")
 	public void validateSuccessful()
 	{   
 		RestAssured.baseURI = "https://reqres.in/";

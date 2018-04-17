@@ -9,7 +9,7 @@ import io.restassured.specification.RequestSpecification;
  
 public class SimpleDelete {
  
-	@Test
+	@Test(description="This test case for validate delete resource")
 	public void validateDelete()
 	{   
 		RestAssured.baseURI = "https://reqres.in/";

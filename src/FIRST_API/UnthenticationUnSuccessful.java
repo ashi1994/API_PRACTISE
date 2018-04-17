@@ -4,14 +4,13 @@ import static org.testng.Assert.assertEquals;
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
 import io.restassured.RestAssured;
-import io.restassured.http.Method;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
  
 public class UnthenticationUnSuccessful {
  
 
-	@Test
+	@Test(description="This test case valiadate the unsuceessful attempt")
 	public void validateUnsuccessful()
 	{   
 		RestAssured.baseURI = "https://reqres.in/";

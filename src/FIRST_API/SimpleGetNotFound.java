@@ -6,7 +6,7 @@ import io.restassured.specification.RequestSpecification;
  
 public class SimpleGetNotFound {
  
-	@Test(enabled=true)
+	@Test(enabled=true,description="This test case not found the resource")
 	public void GetWeatherDetails(){
 		
 		RestAssured.baseURI = "https://reqres.in/";

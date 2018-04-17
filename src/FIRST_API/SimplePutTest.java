@@ -10,7 +10,7 @@ import io.restassured.specification.RequestSpecification;
  
 public class SimplePutTest {
  
-	@Test
+	@Test(description="This test case for validate put configuration")
 	public void validateDelete()
 	{   
 		RestAssured.baseURI = "https://reqres.in/";
